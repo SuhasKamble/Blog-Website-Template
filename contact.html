@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Suhas Blog </title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Suhas Blog</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li>
+                <form>
+                    <input name="search" placeholder="Search" id="search" type="text">
+                    <a role="button" href="#" id="search-btn" type="submit">Search </a>
+                </form>
+            </li>
+            <li>
+
+            </li>
+        </ul>
+
+        <div class="burger">
+            <i class="fas fa-bars "></i>
+        </div>
+    </nav>
+    <section class="main-box">
+
+        <div class="main-container">
+
+            <div class="main-text">
+
+                <h1 class="blog-title">Contact</h1>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="main-container">
+            <h3>Contact Us</h3>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" class="input-field" name="username" required>
+
+                <label for="email">Email</label>
+                <input type="email" class="input-field" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" class="input-field" name="subject">
+
+                <label for="msh">Message</label>
+                <textarea name="message" class="input-field"></textarea>
+                <input type="submit" value="Send" class="submit-btn">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright @ 2021 SuhasBlog.com. All Rights Reserved | Privacy Policy</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/7d678829bc.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
