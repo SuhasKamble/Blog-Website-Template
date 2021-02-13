@@ -4,5 +4,6 @@ const bars = document.querySelector('.fa-bars')
 burger.addEventListener("click",()=>{
   navLinks.classList.toggle('show')
   bars.classList.toggle('fa-times')
-  
+
+
 })
